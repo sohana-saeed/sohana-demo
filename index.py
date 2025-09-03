@@ -20,9 +20,13 @@
 #     for seat in range(1,4):
 #         print(row + str(seat) )
 
+total = 0
+num = int(input("Enter your number: "))
+while num!=0:
+    total+=num
+    num = int(input("Enter your number: "))
 
-for i in range(3):
-    for j in range(3):
-        print("X")
+print("total sum is:", total)
+
     
 
