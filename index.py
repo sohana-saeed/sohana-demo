@@ -67,13 +67,58 @@
 
 # print("Sum of even numbers =", total_even)
 
-Total_sum = 0
-num = int(input("Enter your number (-1 to stop): "))
-while num!= -1:
-    if num%2==0:
-        Total_sum+=num
+# Total_sum = 0
+# num = int(input("Enter your number (-1 to stop): "))
+# while num!= -1:
+#     if num%2==0:
+#         Total_sum+=num
     
-    num = int(input("Enter your number (-1 to stop): "))
+#     num = int(input("Enter your number (-1 to stop): "))
 
-print("the sum of even number:", Total_sum)
+# # print("the sum of even number:", Total_sum)
 
+# days = [1, 2, 3]
+# slots = ["Morning", "Evening"]
+
+# for d in days:
+#     for s in slots:
+#         print("Day", d, "-", s)
+
+# rows = [1, 2, 3]
+# seats = ["A", "B", "C", "D"]
+
+# for r in rows:
+#     for s in seats:
+#         print(str(r) + s, end=" ")
+
+# for i in range(3):
+#     for j in range(3):
+#         print("X", end="")
+#     print()
+
+# for i in range(5):
+#     for j in range(i):
+#         print("*", end="")
+#     print()
+    
+# players = ["Ali", "Sana", "Ahmed"]
+
+# for i in range(len(players)):
+#     for j in range(i + 1, len(players)):
+#         print(players[i], "vs", players[j])
+
+# for i in range(2, 6):
+#     print("Table of", i)
+#     for j in range(1, 11):
+#         print(i, "x", j, "=", i * j)
+#     print()
+
+# for i in range(1,6):
+#     for j in range(1, 4):
+#         print(j*i, "", end="")
+#     print()
+
+for i in range(6):
+    for j in range(i):
+        print(j+1, end="")
+    print()
