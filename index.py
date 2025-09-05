@@ -123,18 +123,49 @@
 #         print(j+1, end="")
 #     print()
 
-for i in range(4):
-    for j in range(i):
-        print("*", end="")
-    print()
-for i in range(4):
-    for j in range(4-i):
-        print("*", end="")
-    print()
+# for i in range(4):
+#     for j in range(i):
+#         print("*", end="")
+#     print()
+# for i in range(4):
+#     for j in range(4-i):
+#         print("*", end="")
+#     print()
 
 
 
-for i in range(6):
-    for j in range(i):
-        print(j+1, end="")
-    print()
+# for i in range(6):
+#     for j in range(i):
+#         print(j+1, end="")
+#     print()
+
+
+# for i in range(1, 4):
+#     j = 1
+#     while j <= i:
+#         print(j, end="")
+#         j += 1
+#     print()
+
+# def greet(name = "bacchi"):
+#     print("Hello pyari", name, "!")
+#     return greet
+
+# greet("sohana")
+# greet()
+
+
+# def square(num):
+#     return num**2
+
+# num = int(input("Enter your number: "))
+# print("The square is", square(num))
+
+
+def power(base, expo = 2):
+    return base ** expo
+
+# base = int(input("Enter your base: "))
+# expo = int(input("Enter your expo: "))
+
+print("The answer is", power(4))
