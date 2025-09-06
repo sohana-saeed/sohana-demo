@@ -162,10 +162,18 @@
 # print("The square is", square(num))
 
 
-def power(base, expo = 2):
-    return base ** expo
+# def power(base, expo = 2):
+#     return base ** expo
 
-# base = int(input("Enter your base: "))
-# expo = int(input("Enter your expo: "))
+# # base = int(input("Enter your base: "))
+# # expo = int(input("Enter your expo: "))
+# print("The answer is", power(4))
 
-print("The answer is", power(4))
+name = ["ali", "sana", "ahmed"]
+num = [3,7,9]
+res = []
+for i in range(len(name)):
+    res.append((name[i], num[i]))
+
+print(res)
+
