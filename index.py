@@ -169,11 +169,20 @@
 # # expo = int(input("Enter your expo: "))
 # print("The answer is", power(4))
 
-name = ["ali", "sana", "ahmed"]
-num = [3,7,9]
-res = []
-for i in range(len(name)):
-    res.append((name[i], num[i]))
+# name = ["ali", "sana", "ahmed"]
+# num = [3,7,9]
+# res = []
+# for i in range(len(name)):
+#     res.append((name[i], num[i]))
 
-print(res)
+# print(res)
+# def reverse_string(str):
+#     return str[::-1]
 
+# print(reverse_string("soha"))
+
+sentence = "Python is easy"
+words = sentence.split()
+
+for word in reversed(words):
+    print(word)
