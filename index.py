@@ -181,8 +181,9 @@
 
 # print(reverse_string("soha"))
 
-sentence = "Python is easy"
-words = sentence.split()
+# sentence = "Python is easy"
+# words = sentence.split()
 
-for word in reversed(words):
-    print(word)
+# for word in reversed(words):
+#     print(word)
+print(10%3)
