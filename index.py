@@ -186,4 +186,3 @@
 
 # for word in reversed(words):
 #     print(word)
-print(10%3)
